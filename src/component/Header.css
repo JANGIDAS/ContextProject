@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+background-color: bisque;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+font-size: 20px;
+text-transform: capitalize;
+}
+nav ul {
+    display: flex;
+    padding: 5px;
+}
+nav ul li{
+    margin: 2px;
+    padding: 3px;
+    list-style:  none;
+}
